@@ -1,14 +1,14 @@
-set -o nounset
-
 home=${HOME}
 source=i3config.tar.gz
 
 (
 	cd /tmp
+	pwd
 	mkdir -p ${home}/.i3
 	curl -s -L -o ${source} http://github.com/hayzer/i3config/tarball/master
-	tar zxvf ${source}
+	tar zxf ${source}
 	cd hayzer-*/
+	pwd
 
 	if test ${I3WORK-}; then
 		cp dot-i3-config-work ${home}/.i3/config
@@ -20,7 +20,6 @@ source=i3config.tar.gz
 		cp dot-i3-config ${home}/.i3/config
 		cp dot-i3status.conf ${home}/.i3status.conf
 	fi
-	cp dot-i3status.conf ${home}/.i3status.conf
 	rm -fr hayzer-*/ ${source}
 )
 
