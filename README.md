@@ -7,11 +7,11 @@ install
 * at work
 
 ```shell
- # I3WORK=true curl -s -L http://bit.ly/1lCp8GU | bash -
+I3WORK=true curl -s -L http://bit.ly/1lCp8GU | bash -
 ```
 
 * at home
 
 ```shell
- # curl -s -L http://bit.ly/1lCp8GU | bash -
+curl -s -L http://bit.ly/1lCp8GU | bash -
 ```
