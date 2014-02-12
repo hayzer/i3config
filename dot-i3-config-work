@@ -147,5 +147,5 @@ bindsym $mod+r mode "resize"
 # old command: status_command i3status
 bar {
 	position        top
-	status_command  i3status
+	status_command  /home/robot/bin/customi3status.sh
 }
