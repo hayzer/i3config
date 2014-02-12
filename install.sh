@@ -3,12 +3,10 @@ source=i3config.tar.gz
 
 (
 	cd /tmp
-	pwd
 	mkdir -p ${home}/.i3
 	curl -s -L -o ${source} http://github.com/hayzer/i3config/tarball/master
 	tar zxf ${source}
 	cd hayzer-*/
-	pwd
 
 	if test ${I3WORK-}; then
 		cp dot-i3-config-work ${home}/.i3/config
