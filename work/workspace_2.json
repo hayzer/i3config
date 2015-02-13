@@ -1,0 +1,52 @@
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.5,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "normal",
+            "floating": "auto_off",
+            "geometry": {
+               "height": 316,
+               "width": 564,
+               "x": 0,
+               "y": 0
+            },
+            "name": "root@localhost:/root",
+            "percent": 1,
+            "swallows": [
+               {
+                "class": "^URxvt$",
+                "instance": "^urxvt$",
+                "title": "^root\\@localhost\\:\\/root$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "geometry": {
+       "height": 515,
+       "width": 1284,
+       "x": 0,
+       "y": 0
+    },
+    "name": "i3 - ArchWiki - Vimperator",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^Firefox$",
+        "instance": "^Navigator$",
+        "title": "^i3\\ \\-\\ ArchWiki\\ \\-\\ Vimperator$",
+        "window_role": "^browser$"
+       }
+    ],
+    "type": "con"
+}
+

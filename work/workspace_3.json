@@ -1,0 +1,42 @@
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "geometry": {
+       "height": 316,
+       "width": 564,
+       "x": 0,
+       "y": 0
+    },
+    "name": "thomas@localhost:~/.i3",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^URxvt$",
+        "instance": "^urxvt$",
+        "title": "^thomas\\@localhost\\:\\~\\/\\.i3$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "geometry": {
+       "height": 600,
+       "width": 800,
+       "x": 283,
+       "y": 84
+    },
+    "name": "telegram",
+    "percent": 0.5,
+    "swallows": [
+       {
+        "class": "^telegram$",
+        "instance": "^telegram$",
+        "title": "^telegram$"
+       }
+    ],
+    "type": "con"
+}
+
