@@ -19,6 +19,10 @@ font pango:Terminus 10px
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Use xrandr to verify the correct display configuration.
+# Remove comment and update the bellow line accordingly.
+# exec --no-startup-id xrandr --output HDMI2 --auto --left-of HDMI1
+
 # start a terminal
 bindsym $mod+Return exec gnome-terminal --hide-menubar
 
@@ -112,7 +116,7 @@ bindsym $mod+Shift+R restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+E exit
 # lock the screen
-bindsym $mode+Shift+d exec i3lock -c 46aede
+bindsym $mod+Shift+d exec i3lock -c 000000
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
